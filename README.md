@@ -15,3 +15,11 @@ Blocks are an abstract unit for structuring and interacting with content. When c
 https://developer.wordpress.org/block-editor/explanations/
 
 ![](hello.png)
+
+# Block Supports
+
+Block Supports is the API that allows a block to declare support for certain features.
+
+Opting into any of these features will register additional attributes on the block and provide the UI to manipulate that attribute.
+
+https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/
