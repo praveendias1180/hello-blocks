@@ -31,11 +31,6 @@ import './editor.scss';
  */
 export default function Edit({ attributes, setAttributes }) {
 	return (
-		<>
-			<p {...useBlockProps()}>
-				{__(attributes.message, 'hello-blocks')}
-			</p>
-			<RichText tagName='p' value={attributes.message} onChange={(newText) => setAttributes({ message: newText })} />
-		</>
+		<RichText { ...useBlockProps() } tagName='p' value={attributes.message} onChange={(newText) => setAttributes({message: newText})}/>
 	);
 }
