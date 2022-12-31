@@ -11,3 +11,5 @@ Blocks are an abstract unit for structuring and interacting with content. When c
 <p>Welcome to the world of blocks.</p>
 <!-- /wp:paragraph -->
 ```
+
+https://developer.wordpress.org/block-editor/explanations/
