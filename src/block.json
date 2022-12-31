@@ -14,7 +14,11 @@
 		}
 	},
 	"supports": {
-		"html": false
+		"html": false,
+		"color": {
+			"text": true,
+			"background": true
+		}
 	},
 	"textdomain": "hello-blocks",
 	"editorScript": "file:./index.js",

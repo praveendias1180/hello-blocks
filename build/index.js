@@ -266,7 +266,7 @@ function _extends() {
   \************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/hello-blocks","version":"0.1.0","title":"Hello Blocks","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","attributes":{"message":{"type":"string","default":"My Custom Message 2"}},"supports":{"html":false},"textdomain":"hello-blocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/hello-blocks","version":"0.1.0","title":"Hello Blocks","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","attributes":{"message":{"type":"string","default":"My Custom Message 2"}},"supports":{"html":false,"color":{"text":true,"background":true}},"textdomain":"hello-blocks","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 
