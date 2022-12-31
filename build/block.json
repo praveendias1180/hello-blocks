@@ -7,6 +7,12 @@
   "category": "widgets",
   "icon": "smiley",
   "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "default": "My Custom Message 2"
+    }
+  },
   "supports": {
     "html": false
   },

@@ -29,10 +29,10 @@ import './editor.scss';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit() {
+export default function Edit({attributes}) {
 	return (
 		<p { ...useBlockProps() }>
-			{ __( 'Hello Blocks – hello from the editor!', 'hello-blocks' ) }
+			{ __( attributes.message, 'hello-blocks' ) }
 		</p>
 	);
 }
